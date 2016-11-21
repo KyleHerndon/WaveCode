@@ -7,7 +7,6 @@ depths = np.array([0,1,1,1,1,0])
 refraction = np.array([1,1.5,2.5,1.5,2.5,1])
 length = refraction.size
 
-samples = 100
 
 def reflection(n1, n2):
     return ((n1-n2)/(n1+n2))**2
